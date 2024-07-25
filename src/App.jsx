@@ -103,7 +103,7 @@ function App() {
               type="text"
               placeholder='Message to AiryAI'
               ref={inputRef}
-              className='flex-1 p-2 bg-transparent border-none text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-0'
+              className='w-full p-2 bg-transparent border-none text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-0'
               disabled={isLoading}
             />
             <button
